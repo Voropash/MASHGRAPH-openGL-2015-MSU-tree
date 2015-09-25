@@ -1,0 +1,95 @@
+﻿Build started 11/18/2014 9:23:59 PM.
+     1>Project "C:\Users\Sergey\Desktop\template\src\Triangles\Triangles.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Triangles.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\freeglut\include /I..\glew\include /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Leaf.cpp tree.cpp
+         Leaf.cpp
+         tree.cpp
+     1>tree.cpp(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(85): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(89): warning C4305: '=' : truncation from 'double' to 'float'
+     1>tree.cpp(90): warning C4305: '=' : truncation from 'double' to 'float'
+     1>tree.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(127): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>tree.cpp(131): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>tree.cpp(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(169): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(170): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(174): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(175): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(214): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(225): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(245): warning C4018: '>' : signed/unsigned mismatch
+     1>tree.cpp(292): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(340): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(372): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(385): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>tree.cpp(402): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>tree.cpp(413): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tree.cpp(414): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(424): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(609): warning C4018: '<' : signed/unsigned mismatch
+     1>tree.cpp(635): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>tree.cpp(635): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>tree.cpp(635): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>tree.cpp(636): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>tree.cpp(636): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>tree.cpp(636): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>tree.cpp(647): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(647): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(647): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(675): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(675): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(675): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(712): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(712): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(712): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(713): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(713): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(713): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(714): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(714): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(715): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>tree.cpp(768): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>tree.cpp(771): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sergey\Desktop\template\src\..\bin\Win32\Release\Triangles.exe" /NOLOGO /LIBPATH:..\glew\lib\Release\Win32 /LIBPATH:..\freeglut\lib kernel32.lib opengl32.lib freeglut.lib glew32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Triangles.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sergey\Desktop\template\bin\Win32\Release\Triangles.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sergey\Desktop\template\src\..\bin\Win32\Release\Triangles.lib" /MACHINE:X86 Release\Branch.obj
+         Release\konus.obj
+         Release\l3ds.obj
+         Release\Leaf.obj
+         Release\main.obj
+         Release\MyObject.obj
+         Release\shader.obj
+         Release\shaderprogram.obj
+         Release\sun.obj
+         Release\tree.obj
+         Generating code
+         Finished generating code
+         Triangles.vcxproj -> C:\Users\Sergey\Desktop\template\src\..\bin\Win32\Release\Triangles.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Sergey\Desktop\template\src\..\bin\Win32\Release\Triangles.exe;#1" /manifest Release\Triangles.exe.intermediate.manifest
+       PostBuildEvent:
+         copy "C:\Users\Sergey\Desktop\template\src\Triangles\\*.frag" "C:\Users\Sergey\Desktop\template\bin\Win32\Release\\*.frag"
+         copy "C:\Users\Sergey\Desktop\template\src\Triangles\\*.vert" "C:\Users\Sergey\Desktop\template\bin\Win32\Release\\*.vert"
+         copy "C:\Users\Sergey\Desktop\template\src\\freeglut\bin\*.dll" "C:\Users\Sergey\Desktop\template\bin\Win32\Release\\*.dll"
+         copy "C:\Users\Sergey\Desktop\template\src\\glew\bin\Release\Win32\*.dll" "C:\Users\Sergey\Desktop\template\bin\Win32\Release\\*.dll"
+         :VCEnd
+         C:\Users\Sergey\Desktop\template\src\Triangles\\Fragment.frag
+                 1 file(s) copied.
+         C:\Users\Sergey\Desktop\template\src\Triangles\\Vertex.vert
+                 1 file(s) copied.
+         C:\Users\Sergey\Desktop\template\src\\freeglut\bin\freeglut.dll
+                 1 file(s) copied.
+         C:\Users\Sergey\Desktop\template\src\\glew\bin\Release\Win32\glew32.dll
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\Triangles.unsuccessfulbuild".
+         Touching "Release\Triangles.lastbuildstate".
+     1>Done Building Project "C:\Users\Sergey\Desktop\template\src\Triangles\Triangles.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.17
