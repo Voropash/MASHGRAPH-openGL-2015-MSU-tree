@@ -1,13 +1,9 @@
 # MASHGRAPH-openGL-2015-MSU-tree
 
 FreeGlut
-
 OpenGL
-
 Project
-
 Tree
-
 
 Video:
 
